@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(248, 255, 255);
+}
+
+nav {
+    background-color:white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Öğeleri sağa ve sola hizala */
+    align-items: left   ; /* Öğeleri dikeyde ortala */
+    margin-right: auto;
+}
+
+.logo img {
+    margin-left: 200px;
+    color: white;
+    
+}
+.navbar{
+    
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li:first-child {
+    margin-right: 0;
+}
+
+.menu li.search {
+    margin-right: auto;/* Arama kutusunu sağa hizala */
+}
+
+.menu li.search input[type="text"] {
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: auto  ;
+}
+
+.menu li.search button {
+    
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.menu li.search button:hover {
+    background-color: #777;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.h1{
+    background-color: rgb(255, 0, 0);
+}
+.div1{
+
+    height: 300px;
+    color: yellowgreen;
+}
+.div2{
+    margin-top: 200px;
+    border: 5px;
+    
+}
+.div3{
+    text-align: center;
+}
+.etkinlikler{
+    display: flex;
+    justify-content: center;
+}
+.etkinlik{
+    margin-top: 500px   ;
+    flex: 3; /* Her bölgeyi eşit genişlikte yap */
+    padding: 20px; /* Kenar boşluğu ekleyelim */
+    background-color: white; /* Arkaplan rengi */
+    border: 1px solid #ccc; /* Kenarlık ekleme */
+    margin: 30px;
+}
+
+
+.container {
+    display: flex; /* Flex konteyner olarak ayarla */
+    justify-content: center;
+}
+
+.section {
+    margin-top: 500px   ;
+    flex: 3; /* Her bölgeyi eşit genişlikte yap */
+    padding: 20px; /* Kenar boşluğu ekleyelim */
+    background-color:white; /* Arkaplan rengi */
+    
+    margin: 30px;
+}
